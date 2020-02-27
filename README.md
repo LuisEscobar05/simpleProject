@@ -1,7 +1,7 @@
 Practice with Docker
 =======
 
-## Requirements
+### Requirements
  - (Docker)[https://docs.docker.com/install/]
  - (docker-compose)[https://docs.docker.com/compose/install/]
 
