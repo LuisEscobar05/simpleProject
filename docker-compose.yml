@@ -4,4 +4,4 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: 'lescobar05/node-simple-project' 
+    image: 'lescobar05/simple-project' 
