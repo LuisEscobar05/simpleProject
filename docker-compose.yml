@@ -4,4 +4,5 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: 'lescobar05/simple-project' 
+    image: 'lescobar05/simple-project:latest' 
+    # lescobar05/simple-project
