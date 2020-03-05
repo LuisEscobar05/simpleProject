@@ -1,4 +1,4 @@
-version: 2.1
+version: 2.0
 jobs:
   build:
     working_directory: ~/simpleProject_docker
@@ -21,9 +21,9 @@ jobs:
       - run:
           name: test
           command: npm test
-      - store_artifacts:
-          path: test-results.xml
-          prefix: tests
+    #   - store_artifacts:
+    #       path: test-results.xml
+    #       prefix: tests
 
-      - store_test_results:
-          path: test-results.xml
+    #   - store_test_results:
+    #       path: test-results.xml
