@@ -6,9 +6,9 @@ jobs:
       - image: lescobar05/simple-project:latest
     steps:
       - checkout
-      - run:
-          name: install-sudo
-          command: apt-get install sudo -y
+    #   - run:
+    #       name: install-sudo
+    #       command: apt-get install sudo
       - run:
           name: update-npm
           command: 'sudo npm install -g npm@5'

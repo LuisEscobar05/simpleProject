@@ -12,6 +12,10 @@ RUN npm install
 
 COPY --chown=node:node . .
 
+# Add none root user
+RUN  useradd admin && echo "admin:admin" | chpasswd && adduser admin sudo
+USER admin
+
 EXPOSE 8080
 
 CMD [ "node", "server.js" ]
