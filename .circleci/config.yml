@@ -8,7 +8,7 @@ jobs:
       - checkout
       - run:
           name: install-sudo
-          command: apt-get install sudo
+          command: apt-get install sudo -y
       - run:
           name: update-npm
           command: 'sudo npm install -g npm@5'
