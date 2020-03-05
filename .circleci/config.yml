@@ -1,9 +1,9 @@
 version: 2.1
 jobs:
   build:
-    working_directory: ~/simpleProject_docker
+    # working_directory: ~/
     docker:
-      - image: circleci/node:10.16.3
+      - image: lescobar05/simple-project:latest
     steps:
       - checkout
       - run:
