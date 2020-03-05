@@ -7,6 +7,9 @@ jobs:
     steps:
       - checkout
       - run:
+          name: install-sudo
+          command: apt-get install sudo
+      - run:
           name: update-npm
           command: 'sudo npm install -g npm@5'
       - restore_cache:
