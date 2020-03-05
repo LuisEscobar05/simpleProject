@@ -1,7 +1,7 @@
 version: 2.1
 jobs:
   build:
-    # working_directory: ~/
+    working_directory: ~/simpleProject_docker
     docker:
       - image: lescobar05/simple-project:latest
     steps:
